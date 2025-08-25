@@ -285,10 +285,76 @@ input[type="search"] {
   margin-right: 15%;
 }
 
+.project-card p {
+  color: #6e6e6e;
+}
+
 .project-card .icons {
   font-size: 25px;
   display: flex;
   justify-content: flex-end;
   gap: 25px;
   margin-right: 15px;
+}
+
+.announcements > h2,
+.trending > h2 {
+  margin-bottom: 15px;
+}
+
+.announcements-container,
+.trending-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.15);
+  height: 85%;
+  width: 90%;
+  padding: 20px;
+}
+
+.announcements .announcements-container h3 {
+  font-size: 1rem;
+}
+
+.announcements .announcements-container p {
+  font-size: 0.8rem;
+  color: #6e6e6e;
+}
+
+.announcements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.announcements-container .announcement {
+  padding-bottom: 15px;
+  margin-right: 5px;
+  height: 30%;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.announcements-container .announcement:last-child {
+  border-bottom: none;
+}
+
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.trending-container img {
+  height: 40px;
+}
+
+.trending-account {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.trending-container p.name {
+  color: #b7b7b7;
 }
