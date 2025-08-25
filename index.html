@@ -4,7 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="dashboard-logo">
+          <img src="" alt="" />
+          <h1 .roboto-light-heading>
+            <span class="mdi mdi-view-dashboard"></span>Dashboard
+          </h1>
+        </div>
+        <div class="dashboard-nav">
+          <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user"></i> Profile</li>
+            <li><i class="fas fa-envelope"></i> Messages</li>
+            <li><i class="fas fa-history"></i> History</li>
+            <li><i class="fas fa-tasks"></i> Tasks</li>
+            <li><i class="fas fa-users"></i> Communities</li>
+          </ul>
+        </div>
+        <div class="dashboard-preferences">
+          <ul>
+            <li><i class="fas fa-cog"></i> Settings</li>
+            <li><i class="fas fa-question-circle"></i> Support</li>
+            <li><i class="fas fa-shield-alt"></i> Privacy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header-first-row">
+          <div class="search">
+            <form action="" method="get">
+              <label for="searchbar"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></label>
+              <input
+                type="search"
+                id="searchbar
+              "
+              />
+            </form>
+          </div>
+          <div class="right">
+            <span class="mdi mdi-bell-ring"></span>
+            <img
+              src="/images/mrwhite.jpg"
+              alt="mrwhite smoking"
+              height="40px"
+            />
+            <p>Mr.White</p>
+          </div>
+        </div>
+        <div class="header-second-row">
+          <div class="left">
+            <img
+              src="/images/mrwhite.jpg"
+              alt="mrwhite smoking"
+              height="60px"
+            />
+            <div class="message">
+              <p>Hi there,</p>
+              <p>Mr.White (@Mrwhite987)</p>
+            </div>
+          </div>
+          <div class="project-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="projects"></div>
+        <div class="announcements"></div>
+        <div class="trending"></div>
+      </div>
+    </div>
+  </body>
 </html>
