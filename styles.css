@@ -297,9 +297,18 @@ input[type="search"] {
   margin-right: 15px;
 }
 
+.announcements,
+.trending {
+  height: 90%;
+}
+
 .announcements > h2,
 .trending > h2 {
   margin-bottom: 15px;
+}
+
+.trending h2 {
+  margin-top: 20px;
 }
 
 .announcements-container,
@@ -307,7 +316,6 @@ input[type="search"] {
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.15);
-  height: 85%;
   width: 90%;
   padding: 20px;
 }
@@ -327,11 +335,15 @@ input[type="search"] {
   justify-content: space-between;
 }
 
-.announcements-container .announcement {
-  padding-bottom: 15px;
+.announcement {
+  padding: 15px 0 15px 0;
   margin-right: 5px;
   height: 30%;
   border-bottom: 1px solid #d8d8d8;
+}
+
+.announcements-container .announcement:first-child {
+  padding-top: 10px;
 }
 
 .announcements-container .announcement:last-child {
@@ -342,7 +354,8 @@ input[type="search"] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px 30px;
+  gap: 17px;
 }
 
 .trending-container img {
